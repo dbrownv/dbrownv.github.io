@@ -4,6 +4,7 @@
 
 p.solid {
 	border-style: solid;
+	border-spacing: 15px;
 }
 
 /* Style the body */
