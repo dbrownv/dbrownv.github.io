@@ -105,6 +105,38 @@ h2 {
 	padding: 20px;
 }
 
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.readmore { 
+	display: block; 
+	background: #26231f; 
+	text-align: right; 
+	padding: 9px 25px;
+	color: #eeecd9; 
+	font-size: 10px; 
+	display: block; 
+	letter-spacing: 2px; 
+	text-decoration: none; 
+}
+
+.readmore:after { 
+	content:" ▶";
+}
+
 /* Footer */
 .footer {
 	padding: 0px;
