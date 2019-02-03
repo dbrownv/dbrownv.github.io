@@ -107,18 +107,16 @@ h2 {
 
 /* Container holding the image and the text */
 .container {
-  position: fixed;
+  	position: fixed;
 }
 
 /* Bottom right text */
 .text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+	position  : absolute;
+  	background-color: black;
+  	color: white;
+  	padding-left: 20px;
+ 	padding-right: 20px;
 }
 
 .readmore { 
@@ -207,53 +205,53 @@ h2 {
 
 /* Style buttons */
 .btn {
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  cursor: pointer; /* Mouse pointer on hover */
+  	border: none; /* Remove borders */
+  	color: white; /* White text */
+  	cursor: pointer; /* Mouse pointer on hover */
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: #474935;
+  	background-color: #474935;
 }
 
 /* Contact Form */
 .bg-img {
-  /* The image used */
-  background-image: url("form.jpg");
+  	/* The image used */
+  	background-image: url("form.jpg");
 
-  /* Control the height of the image */
-  min-height: 380px;
+  	/* Control the height of the image */
+  	min-height: 380px;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+	/* Center and scale the image nicely */
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
 }
 
 /* Add styles to the form container */
 .container {
-  position: absolute;
-  right: 0;
-  margin: 20px;
-  max-width: 300px;
-  padding: 16px;
-  background-color: white;
+  	position: absolute;
+  	right: 0;
+  	margin: 20px;
+  	max-width: 300px;
+  	padding: 16px;
+  	background-color: white;
 }
 
 /* Full-width input fields */
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
+input[type=text], input[type=password] {
+	width: 100%;
+  	padding: 15px;
+  	margin: 5px 0 22px 0;
+  	border: none;
+  	background: #f1f1f1;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+  	background-color: #ddd;
+  	outline: none;
 }
 
 /* 	Responsive layout - when the screen is less than 700px wide, 
