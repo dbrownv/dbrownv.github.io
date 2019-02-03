@@ -122,7 +122,8 @@ h2 {
 
 .readmore { 
 	display: block; 
-	background: #26231f; 
+	background: #26231f;
+	font-family: Georgia;
 	text-align: right; 
 	padding: 9px 25px;
 	color: #eeecd9; 
