@@ -122,14 +122,17 @@ h2 {
   	position: relative;
 }
 
-/* Bottom right text */
+/* Bottom center text */
 .text-block {
 	position: absolute;
-  	bottom: 0px;
+	bottom: 0px;
 	width: 50%;
-  	color: white;
-  	padding-left: 20px;
- 	padding-right: 20px;
+	color: white;
+	background-color: #B2AA8E;
+	opacity: 0.8;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .readmore { 
