@@ -50,6 +50,7 @@ h2 {
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
+	height: 80px;
 }
 
 /* Style the navigation bar links */
@@ -88,9 +89,10 @@ h2 {
 	flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
+/* Create three unequal columns that sits next to each other */
 /* Sidebar/left column */
-.side {
+.leftside {
+	float: left;
 	-ms-flex: 30%; /* IE10 */
 	flex: 30%;
 	background-color: #B2AA8E;
@@ -99,15 +101,17 @@ h2 {
 
 /* Main column */
 .main {   
+	float: left;
 	-ms-flex: 60%; /* IE10 */
 	flex: 60%;
 	background-color: #81523F;
 	padding: 20px;
 }
 
-/* Sidebar/right column */
-.right {
-	-ms-flex: 10%; /* IE10 */
+/* Sidebar/right column 8*/
+.rightside {
+	float: left;
+	-ms-flex: 10%;
 	flex: 10%;
 	background-color: #B2AA8E;
 	padding: 20px;
