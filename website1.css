@@ -99,9 +99,17 @@ h2 {
 
 /* Main column */
 .main {   
-	-ms-flex: 70%; /* IE10 */
-	flex: 70%;
+	-ms-flex: 60%; /* IE10 */
+	flex: 60%;
 	background-color: #81523F;
+	padding: 20px;
+}
+
+/* Sidebar/right column */
+.right {
+	-ms-flex: 10%; /* IE10 */
+	flex: 10%;
+	background-color: #B2AA8E;
 	padding: 20px;
 }
 
