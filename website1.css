@@ -51,6 +51,7 @@ h2 {
 	position: -webkit-sticky;
 	top: 0;
 	height: 80px;
+	z-index:1000; /* add z-index */
 }
 
 /* Style the navigation bar links */
