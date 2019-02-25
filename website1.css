@@ -104,8 +104,8 @@ h2 {
 /* Main column */
 .main {   
 	float: left;
-	-ms-flex: 60%; /* IE10 */
-	flex: 60%;
+	-ms-flex: 55%; /* IE10 */
+	flex: 55%;
 	background-color: #81523F;
 	padding: 20px;
 }
@@ -113,8 +113,8 @@ h2 {
 /* Sidebar/right column 8*/
 .rightside {
 	float: left;
-	-ms-flex: 10%;
-	flex: 10%;
+	-ms-flex: 15%;
+	flex: 15%;
 	background-color: #B2AA8E;
 	padding: 20px;
 }
