@@ -34,7 +34,8 @@ body, html {
 
 /* Slideshow container */
 .slideshow-container {
-	max-width: 1000px;
+	padding: 0px;
+	max-width: auto;
 	max-height: 960px;
 	position: relative;
 	margin: auto;
