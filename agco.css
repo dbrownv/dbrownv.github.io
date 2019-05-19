@@ -145,17 +145,21 @@ h2 {
 ul {
 	list-style-type: none;
 	position: sticky;			/* Browser sticky support */
-	position: -webkit-sticky;	/* sticky support for IE */
+	position: -webkit-sticky;		/* sticky support for IE */
+	width: 100%; 				/* may 19th 2019 */
+	display: inline-block;			/* Allows for the navbar to be displayed centered*/
+	text-align: center;
 	margin: 0;
 	padding: 0;
 	top: 0;
 	height: 84px;				/* heigth of navbar */
 	z-index:1000; 				/* add z-index */
-	background-color: #313715;	/* navbar color */
+	background-color: #313715;		/* navbar color */
 }
 
 li {
-	float: left;
+	display: inline-block;			/* Navbar is now displayed centered */
+	text-align: center;
 }
 
 /* Navbar link style */
